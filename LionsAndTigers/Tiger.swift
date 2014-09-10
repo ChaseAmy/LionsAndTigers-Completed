@@ -43,6 +43,7 @@ struct Tiger {
     }
     
     func randomFact() -> String {
+                
         let randomNumber = Int(arc4random_uniform(UInt32(3)))
         var randomFact:String
         
